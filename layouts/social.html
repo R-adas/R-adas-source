@@ -1,0 +1,52 @@
+<ul class="nav nav-list">
+  	<li class="h5">Contribuidores TOP TOP</li>
+	<% @config[:contribuidores].each do |(contrib, info)| %>
+	<div class="panel panel-default ">
+		<div class="panel-heading social-heading">
+			<a href="#" class="disabled"><h5><i class="fa fa-user"></i> <%= info[:name] %></h5></a>
+		</div>
+		<div class="btn-group btn-group-justified">
+			<% if !(info[:email].nil?) %>
+				<a href="mailto:<%= info[:email].to_s %>?Subject=R-adas%20ghpages" class="btn btn-default" target="_top">
+					<i class="fa fa-envelope fa-lg"></i>
+				</a>
+			<% end %>
+			<% if !info[:facebook].nil? %>
+				<a href="http://<%=info[:facebook].to_s  %>" class="btn btn-default" target="_newtab">
+					<i class="fa fa-facebook-square fa-lg"></i>
+				</a>
+			<% end %>
+			<% if !info[:github].nil? %>
+				<a href="http://<%=info[:github].to_s  %>" class="btn btn-default" target="_newtab">
+					<i class="fa fa-github-square fa-lg"></i>
+				</a>
+			<% end %>
+			<% if !info[:linkedin].nil? %>
+				<a href="http://<%=info[:linkedin].to_s  %>" class="btn btn-default" target="_newtab">
+					<i class="fa fa-linkedin-square fa-lg"></i>
+				</a>
+			<% end %>
+			<% if !info[:googlePlus].nil? %>
+				<a href="http://<%=info[:googlePlus].to_s  %>" class="btn btn-default" target="_newtab">
+					<i class="fa fa-google-plus-square fa-lg"></i>
+				</a>
+			<% end %>
+			<% if !info[:twitter].nil? %>
+				<a href="http://<%=info[:twitter].to_s  %>" class="btn btn-default" target="_newtab">
+					<i class="fa fa-twitter-square fa-lg"></i>
+				</a>
+			<% end %>
+			<% if !info[:lattes].nil? %>
+				<a href="http://<%= info[:lattes].to_s  %>" class="btn btn-default" target="_newtab">
+					<img src="<%= @config[:base_url] + @config[:radas][:staticPath] + "/img/lattes.png" %>" width="14px" alt="lattes"></img>
+				</a>
+			<% end %>
+			<% if !info[:pessoal].nil? %>
+				<a href="http://<%=info[:pessoal].to_s  %>" class="btn btn-default" target="_newtab">
+					<i class="fa fa-home fa-lg"></i>
+				</a>
+			<% end %>
+		</div>
+	</div>
+	<% end %>
+</ul>

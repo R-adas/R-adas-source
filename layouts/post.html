@@ -1,0 +1,41 @@
+<%= render 'top' %>
+
+<div class="row page-header">
+  <div class="">
+    <div class="col-sm-4 col-md-4" id="r-adas-header">
+      <h1><small><%= @config[:tagline] %></small><br></h1>
+    </div> <!-- /span3 -->
+    <div class="col-sm-8 col-md-8">
+      <%= render 'breadcrumbs' %>
+    </div> <!-- /span9 -->
+  </div> <!-- /page-header -->
+</div> <!-- /row-fluid -->
+
+<div class="row">
+  <div class="col-sm-4 col-md-4 panel">
+    <%= render 'radasPostList' %>
+    <hr />
+    <%= render 'radasCategTagList' %>
+    <hr />
+    <%= render 'social' %>
+  </div> <!-- /span3 -->
+  <div class="col-sm-8 col-md-8">
+    <h1><%= @item[:title] %></h1>
+    <%= yield %>
+
+    <%= render 'facebookLikes' %>
+    <br />
+    <%= render 'facebookComments' %>
+  </div> <!-- /span9 -->
+  <script type="text/javascript">
+    var tb = jQuery("table");
+    tb.removeAttr("border");
+    var classes = ["table", "table-striped", "table-hover", "table-condensed", "table-responsive"];
+    for(var classe in classes){
+      tb.addClass(classes[classe])
+    };
+
+  </script>
+</div> <!-- /row -->
+
+<%= render 'bottom' %>

@@ -1,0 +1,58 @@
+---
+license: Creative Commons BY-SA
+author: Athos Damiani
+title: "Medidas resumo"
+categories: [Descritiva]
+radasCat: Descritiva
+tags: [Descritiva]
+---
+
+Medidas resumo
+=========================
+
+Por fazer...
+-------------------------
+
+- Tudo.
+
+Intro
+-------------------------
+
+
+Requisitos
+-------------------------
+
+
+Funções nativas do R
+-------------------------
+
+### Tabela de frequência
+
+```{r}
+```
+
+### Resumo de variáveis contínuas
+
+```{r}
+```
+
+### Funções *pply
+
+```{r}
+```
+
+### Resumo de matrizes
+
+Funções própias
+-------------------------
+
+### Criando as próprias funções
+
+```{r}
+```
+
+### Um pouco mais de funções *pply
+
+```{r}
+```
+

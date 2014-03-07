@@ -1,0 +1,25 @@
+      <div class="row">
+        <div class="col-sm-12 col-md-12">
+          <p class="toplink">
+            <span class="toplink pull-left"><a href="#top"><i class="fa fa-chevron-up"></i> topo</a></span>
+          </p>
+        </div> <!-- /col-sm-12 col-md-12 -->
+      </div> <!-- /row -->  
+      <div class="row" id="bottom">
+        <div class="col-sm-12 col-md-12">
+          <p class="footer">
+            &copy; 2014
+            <%= if @config[:moderador_do_site][:name].class.name == "Array"
+                 @config[:moderador_do_site][:name].join(", ") + " -"
+               else
+                 @config[:moderador_do_site][:name] + " -"
+               end %>
+            <% unless @config[:license][:url].nil? %>
+            licenciado sob <%= @config[:license][:title] %> <a href="http://<%= @config[:license][:url] %>"><img src="<%= @config[:base_url] + @config[:radas][:staticPath] %>/img/cc-by-sa80x15.png" width="80" height="15" alt="Creative Commons BY-SA" /></a> - Site baseado em <a href="http://www.uni-kiel.de/psychologie/rexrepos/">RExRepos</a> <a href="http://github.com/dwoll/RExRepos"><i class="fa fa-github"></i></a>
+            <% end %>
+          </p>
+        </div> <!-- /col-sm-12 col-md-12 -->
+      </div> <!-- /row -->
+    </div> <!-- /container -->
+  </body>
+</html>

@@ -1,0 +1,88 @@
+---
+license: Creative Commons BY-SA
+author: Nome Sobrenome
+link_author: www.seusite.com.br
+title: "Este título é o que vai na página"
+categories: [Categoria, subcategoria]
+radasCat: Categoria
+tags: [assuntoRelacionado1, assuntoRelacionado2]
+---
+
+Este título não vai na página, mas serve para o .Rmd quando for usado fora da página.
+=========================
+
+Por fazer...
+-------------------------
+
+- Tarefa que falta fazer 1;
+- Tarefa que falta fazer 2;
+- Tarefa que falta fazer 3;
+- Escrever a seção "Compartilhando no Github".
+
+É útil para lembrar o que resta fazer e também para guiar quem quiser ajudar.
+
+Intro
+-------------------------
+
+Conteúdo para essa parte:
+- [Obrigatório] Explicação sucinta do conteúdo que vem a seguir;
+- [Recomendado] O que o leitor saberá após sua leitura na íntegra;
+- [Recomendado] Nível exigido do leitor para o aproveitamento da leitura;
+- [Opcional] Links para requisitos de conhecimento. Dar preferência a links do próprio site;
+- [Opcional] Sugestões de assuntos afins.
+
+
+Requisitos
+-------------------------
+
+Requisitos de pacotes do R. Exemplo:
+```{r}
+library(MASS)
+library(stringr)
+```
+
+Conteúdo
+-------------------------
+
+A estrutura mínima exigida para o artigo termina nos Requisitos. A partir daqui segue o conteúdo do artigo propriamente dito. O que segue abaixo serve só para dar infos extras.
+
+Cabeçalho
+-------------------------
+
+Aqueles campos a serem preenchidos são de uso do site. Se você compilar esse documento, vai reparar que o markdown ignora seu conteúdo.
+
+<style>
+th:first-child, td:first-child {
+  width:35%;
+}
+</style>
+
+Campo|Descrição
+----------------|-----
+**license: Creative Commons BY-SA** | Licensa de uso e reprodução do site. Sempre esse.
+**author: Nome Sobrenome** | Seu nome e seu último nome apenas. Ele irá aparecer
+**link_author: www.seusite.com.br** | link para levar à uma página escolhida pelo autor para que outras pessoas possam encontrá-lo (pode ser e-mail também). Retribuição mínima pela contribuição.
+**title: "Este título é o que vai na página"** | Real título do artigo. Títulos sucintos são mais vistosos!
+**categories: [Categoria, subcategoria]** | O Site tem uma estrutura de Categoria > Subcategoria de assuntos. Coloque as respectivas categorias e subcategorias em conformidade com o lugar que você acha que o artigo deva ficar. Caso não saiba/não queira, deixe em branco para eu preencher.
+**radasCat: Categoria** | Por simplicidade, a categoria. É  para uso interno do site.
+**tags: [assuntoRelacionado1, assuntoRelacionado2]** | Tags separadas por virgulas. Tags (ou palavras-chave para os não tão *cools*...) são úteis para fazer menção aos assuntos que o artigo explora ou se relaciona. Dica: faça tags curtas e tome cuidado para não ser muito especifico. 
+
+Exemplo: Artigo sobre Histogramas
+
+- **BOM** [histograma, visualização, descritiva];
+- **RUIM** [histograma, visualização de variáveis contínuas, estimador de densidade de probabilidade]
+
+Material útil sobre R Markdown
+-------------------------
+
+O [Rstudio][RS] já vem com uma guia rápida de markdown muito boa (aliás, caso você não esteja compondo scripts `.Rmd` no [Rstudio][RS], recomendo fortemente que comece a usá-lo.). Além disso, também há um link sobre o basicão de [R Markdown]("http://www.rstudio.com/ide/docs/authoring/using_markdown") que vale a pena dar uma lida. Não é muito complicado e o retorno é recompensador.
+
+Aos que estiverem mais a vontade com o R Markdown e tiverem conhecimento de $\LaTeX$, também há um artigo sobre [R Markdown e $\LaTeX$]("https://www.rstudio.com/ide/docs/authoring/using_markdown_equations").
+
+
+Compartilhando no Github
+------------------------
+
+...
+
+[RS]: http://www.rstudio.com

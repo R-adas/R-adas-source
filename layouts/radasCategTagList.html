@@ -1,0 +1,12 @@
+<ul class="nav nav-list">
+  <li class="h5">Tags</li>
+  <% if @item[:tags].nil? %>
+  <li><a href="<%= @config[:base_url] + @config[:radas][:tagsPath] %>"><i class="fa fa-tags fa-lg"></i> Lista de tags</a></li>
+  <% else %>
+  <li><ul class="nav nav-list">
+    <% for @tag in @item[:tags] %>
+    <li><a href="<%= @config[:base_url] + @config[:radas][:tagsPath] %>#<%= @tag %>-ref"><%= @tag %></a></li>
+    <% end %>
+  </ul></li>
+  <% end %>
+</ul>
