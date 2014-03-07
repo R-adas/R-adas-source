@@ -1,8 +1,8 @@
 output/
 R-adas.sublime-project
 R-adas.sublime-workspace
-.Rproj.user
-.Rhistory
-.Rproj
-.log
+*.Rproj.user
+*.Rhistory
+*.Rproj
+*.log
 tmp/

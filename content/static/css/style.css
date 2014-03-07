@@ -1,6 +1,11 @@
+.navbar-brand img {
+  height: 20px;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
 .container { 
   padding-top: 20px;
   margin-top: 70px;

@@ -60,8 +60,8 @@ Funções própias
 Códigos disponíveis no Github <i class="fa fa-github"></i>
 ----------------------------------------------
 
-- [R markdown](https://github.com/Athospd/R-adas/raw/master/Rmd/medidasResumo.Rmd)
-- [markdown](https://github.com/Athospd/R-adas/raw/master/md/medidasResumo.md)
-- [R](https://github.com/Athospd/R-adas/raw/master/R/medidasResumo.R)
+- [R markdown](https://github.com/Athospd/R-adas/blob/gh-pages/Rmd/medidasResumo.Rmd)
+- [markdown](https://github.com/Athospd/R-adas/blob/gh-pages/md/medidasResumo.md)
+- [R](https://github.com/Athospd/R-adas//blob/gh-pages/R/medidasResumo.R)
 - [Todas as postagens](https://github.com/Athospd/R-adas/)
  

@@ -83,8 +83,8 @@ table(round(cor(X), 2))
 
 ```
 
-0.82 0.83 0.84 0.85 0.86 0.87 0.88    1 
-   8   66  200  244  246   86   20   30 
+0.83 0.84 0.85 0.86 0.87 0.88 0.89    1 
+  50  150  284  256  100   26    4   30 
 ```
 
 ```r
@@ -132,19 +132,19 @@ print(
 ```
 
 <!-- html table generated in R 3.0.2 by xtable 1.7-1 package -->
-<!-- Wed Mar 05 20:21:44 2014 -->
+<!-- Fri Mar 07 03:16:16 2014 -->
 <TABLE border=1>
 <TR> <TH> Param </TH> <TH> Valor </TH>  </TR>
-  <TR> <TD> $\beta_{5}$ </TD> <TD align="right"> -4.60 </TD> </TR>
-  <TR> <TD> $\beta_{11}$ </TD> <TD align="right"> 2.37 </TD> </TR>
-  <TR> <TD> $\beta_{14}$ </TD> <TD align="right"> -3.99 </TD> </TR>
-  <TR> <TD> $\beta_{15}$ </TD> <TD align="right"> -1.03 </TD> </TR>
-  <TR> <TD> $\beta_{18}$ </TD> <TD align="right"> -5.64 </TD> </TR>
-  <TR> <TD> $\beta_{20}$ </TD> <TD align="right"> -7.82 </TD> </TR>
-  <TR> <TD> $\beta_{26}$ </TD> <TD align="right"> 1.85 </TD> </TR>
-  <TR> <TD> $\beta_{27}$ </TD> <TD align="right"> -4.17 </TD> </TR>
-  <TR> <TD> $\beta_{28}$ </TD> <TD align="right"> -3.52 </TD> </TR>
-  <TR> <TD> $\beta_{30}$ </TD> <TD align="right"> -1.05 </TD> </TR>
+  <TR> <TD> $\beta_{5}$ </TD> <TD align="right"> -0.15 </TD> </TR>
+  <TR> <TD> $\beta_{8}$ </TD> <TD align="right"> 0.16 </TD> </TR>
+  <TR> <TD> $\beta_{10}$ </TD> <TD align="right"> 1.05 </TD> </TR>
+  <TR> <TD> $\beta_{13}$ </TD> <TD align="right"> -3.58 </TD> </TR>
+  <TR> <TD> $\beta_{19}$ </TD> <TD align="right"> -6.24 </TD> </TR>
+  <TR> <TD> $\beta_{20}$ </TD> <TD align="right"> -5.28 </TD> </TR>
+  <TR> <TD> $\beta_{22}$ </TD> <TD align="right"> 4.54 </TD> </TR>
+  <TR> <TD> $\beta_{23}$ </TD> <TD align="right"> 6.86 </TD> </TR>
+  <TR> <TD> $\beta_{24}$ </TD> <TD align="right"> 4.50 </TD> </TR>
+  <TR> <TD> $\beta_{28}$ </TD> <TD align="right"> -0.18 </TD> </TR>
    </TABLE>
 
 
@@ -276,9 +276,9 @@ desvio_medio <- lapply(metodos, function(metodo) {
 ```
 
 ```
-exhaustive OK (29 secs)
+exhaustive OK (27 secs)
 forward OK (11 secs)
-backward OK (12 secs)
+backward OK (11 secs)
 ```
 
 ```r
@@ -320,7 +320,8 @@ e depois dividi pelo máximo para ficar entre 0 e 1. O problema é que não fico
 Códigos disponíveis no Github <i class="fa fa-github"></i>
 ----------------------------------------------
 
-- [R markdown](https://github.com/Athospd/R-adas/raw/master/Rmd/simulacaoComparacaoSelecaoDeModelo.Rmd)
-- [markdown](https://github.com/Athospd/R-adas/raw/master/md/simulacaoComparacaoSelecaoDeModelo.md)
-- [R](https://github.com/Athospd/R-adas/raw/master/R/simulacaoComparacaoSelecaoDeModelo.R)
+- [R markdown](https://github.com/Athospd/R-adas/blob/gh-pages/Rmd/simulacaoComparacaoSelecaoDeModelo.Rmd)
+- [markdown](https://github.com/Athospd/R-adas/blob/gh-pages/md/simulacaoComparacaoSelecaoDeModelo.md)
+- [R](https://github.com/Athospd/R-adas//blob/gh-pages/R/simulacaoComparacaoSelecaoDeModelo.R)
 - [Todas as postagens](https://github.com/Athospd/R-adas/)
+ 

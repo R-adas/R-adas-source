@@ -38,4 +38,4 @@ Como tem muita coisa, essa lista irá tão longe quanto Siqueira! =P
 Open Source
 -------------------
 
-Todos os códigos desse site foram feitos em `.Rmd` (R markdown) e estão disponíveis no meu [Github]("http://github.com/Athospd/R-adas/Rmd") (assim como o site inteiro, aliás). Isso significa que além de todos poderem reaproveitar os códigos, poderão melhorá-los, complementá-los e até fornecer um `.Rmd` totalmente novo para ser incluído aqui. Todo mundo ganha!
+Todos os códigos desse site foram feitos em `.Rmd` (R markdown) e estão disponíveis no meu [Github]("http://github.com/Athospd/R-adas/tree/gh-pages/Rmd") (assim como o site inteiro, aliás). Isso significa que além de todos poderem reaproveitar os códigos, poderão melhorá-los, complementá-los e até fornecer um `.Rmd` totalmente novo para ser incluído aqui. Todo mundo ganha!

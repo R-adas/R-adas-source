@@ -75,9 +75,9 @@ gitHubLinks <- function(fIn, fOut) {
     fCont[nLines + 2] <- cabecalho
     fCont[nLines + 3] <- "----------------------------------------------"
     fCont[nLines + 4] <- ""
-    fCont[nLines + 5] <- paste0("- [R markdown](", ghURL, "/raw/master/Rmd/", fRmd, ")")
-    fCont[nLines + 6] <- paste0("- [markdown](",   ghURL, "/raw/master/md/",  fMd,  ")")
-    fCont[nLines + 7] <- paste0("- [R](",     ghURL, "/raw/master/R/",   fR,   ")")
+    fCont[nLines + 5] <- paste0("- [R markdown](", ghURL, "/blob/gh-pages/Rmd/", fRmd, ")")
+    fCont[nLines + 6] <- paste0("- [markdown](",   ghURL, "/blob/gh-pages/md/",  fMd,  ")")
+    fCont[nLines + 7] <- paste0("- [R](",     ghURL, "//blob/gh-pages/R/",   fR,   ")")
     fCont[nLines + 8] <- paste0("- [Todas as postagens](",  ghURL, "/)")
   
   writeLines(enc2native(fCont), fOut)

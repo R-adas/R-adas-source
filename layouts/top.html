@@ -25,7 +25,7 @@
     </head>
     <body>
     <%= render 'facebookJDK' %>
-    <% render "googleAnalytics" %>
+    <%= render "googleAnalytics" %>
 
     <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
       <div class="container-fluid">
@@ -37,7 +37,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="<%= @config[:base_url] %>/index.html">
-            <%= @config[:title] %>
+            <img alt="R-adas logo" src="<%= @config[:base_url] + @config[:radas][:staticPath] %>/img/r-adas-logo.png" /> <%= @config[:title] %>
           </a>
         </div>
         <!-- Everything you want hidden at 940px or less, place within here -->
