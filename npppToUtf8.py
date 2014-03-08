@@ -1,7 +1,7 @@
 '''
 Macro de Notepad++ que utiliza o plugin Python Script para Np++.
 Ela converte todos os .md's em UTF-8 para o nanoc não reclamar.
-O path precisa ser mudado para a pasta que contenha os .mds.
+O path precisa ser mudado para a pasta local que contenha os .mds.
 '''
 
 import os

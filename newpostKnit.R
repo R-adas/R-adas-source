@@ -2,8 +2,9 @@
 
 ## knit input Rmd file to output md file
 newpostKnit <- function(fIn, fOut,
-                        markdEngine=c("pandoc", "kramdown", "redcarpet"),
-                        siteGen=c("nanoc", "jekyll", "none")) {
+                        markdEngine = c("pandoc", "kramdown", "redcarpet"),
+                        siteGen = c("nanoc", "jekyll", "none"),
+                        ghSiteSource = "https://github.com/R-adas/R-adas-source") {
   markdEngine <- match.arg(markdEngine)
   siteGen     <- match.arg(siteGen)
   
@@ -50,7 +51,7 @@ newpostKnit <- function(fIn, fOut,
   }
   
   ## add GitHub-Links, knit to markdown, post-process, and extract R code
-  gitHubLinks(fIn, paste(dirTmp, "/", fName, "Tmp.Rmd", sep=""))
+  gitHubLinks(fIn, paste(dirTmp, "/", fName, "Tmp.Rmd", sep=""), ghSiteSource)
   knitr::knit(     paste(dirTmp, "/", fName, "Tmp.Rmd", sep=""),
                    paste(dirMd,  "/", fName, ".md",     sep=""))
   postProcess(     paste(dirMd,  "/", fName, ".md",     sep=""), fOut,
@@ -59,13 +60,12 @@ newpostKnit <- function(fIn, fOut,
 }
 
 ## add GitHub links to the bottom of a post
-gitHubLinks <- function(fIn, fOut) {
+gitHubLinks <- function(fIn, fOut, gitURL) {
   ## determine names for files we link to on GitHub
   fName  <- basename(tools::file_path_sans_ext(fIn))
   fRmd   <- paste(fName, ".Rmd", sep="")
   fMd    <- paste(fName, ".md",  sep="")
   fR     <- paste(fName, ".R",   sep="")
-  ghURL  <- "https://github.com/Athospd/R-adas"
   fCont  <- readLines(fIn)
   nLines <- length(fCont)
 

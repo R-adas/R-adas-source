@@ -131,18 +131,21 @@ watcher:
   notify_on_compilation_success: true
   notify_on_compilation_failure: true
 
-base_url: "http://athospd.github.io/R-adas-site"
+# base_url: "http://athospd.github.io/R-adas-site"
+base_url: "http://r-adas.github.io"
 # base_url: "http://localhost:3000"
+source_url: "http://github.com/R-adas/R-adas-source"
 
 title: R'adas
 tagline: Coisas em R sobre R e estatística
+
 author:
   name: Athos Damiani
   email: athos.damiani@gmail.com
 
 moderador_do_site:
   name: Athos Damiani
-  email: athos.damiani@gmail.com
+  email: radassite@gmail.com
 
 license:
   title: CC-BY-SA
