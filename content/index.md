@@ -21,7 +21,7 @@ Além disso, provavelmente terão seções temáticas com séries de exercícios
 
 
 R além da análise de dados
-----------------
+-------------------
 
 O R é muito bom em fazer aquilo que inicialmente lhe foi proposto a fazer. Mas a verdade é que dá para fazer muito mais com ele, inclusive tarefas que otimizam/aprimoram as produções de um estatístico. O campo a ser explorado é vasto!
 

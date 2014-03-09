@@ -60,7 +60,7 @@ newpostKnit <- function(fIn, fOut,
 }
 
 ## add GitHub links to the bottom of a post
-gitHubLinks <- function(fIn, fOut, gitURL) {
+gitHubLinks <- function(fIn, fOut, ghURL) {
   ## determine names for files we link to on GitHub
   fName  <- basename(tools::file_path_sans_ext(fIn))
   fRmd   <- paste(fName, ".Rmd", sep="")

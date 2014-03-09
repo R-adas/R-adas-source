@@ -83,8 +83,8 @@ table(round(cor(X), 2))
 
 ```
 
-0.83 0.84 0.85 0.86 0.87 0.88 0.89    1 
-  50  150  284  256  100   26    4   30 
+ 0.8 0.81 0.82 0.83 0.84 0.85 0.86 0.87 0.88    1 
+   4    4   46  160  228  246  140   40    2   30 
 ```
 
 ```r
@@ -132,19 +132,19 @@ print(
 ```
 
 <!-- html table generated in R 3.0.2 by xtable 1.7-1 package -->
-<!-- Fri Mar 07 03:16:16 2014 -->
+<!-- Sun Mar 09 00:51:30 2014 -->
 <TABLE border=1>
 <TR> <TH> Param </TH> <TH> Valor </TH>  </TR>
-  <TR> <TD> $\beta_{5}$ </TD> <TD align="right"> -0.15 </TD> </TR>
-  <TR> <TD> $\beta_{8}$ </TD> <TD align="right"> 0.16 </TD> </TR>
-  <TR> <TD> $\beta_{10}$ </TD> <TD align="right"> 1.05 </TD> </TR>
-  <TR> <TD> $\beta_{13}$ </TD> <TD align="right"> -3.58 </TD> </TR>
-  <TR> <TD> $\beta_{19}$ </TD> <TD align="right"> -6.24 </TD> </TR>
-  <TR> <TD> $\beta_{20}$ </TD> <TD align="right"> -5.28 </TD> </TR>
-  <TR> <TD> $\beta_{22}$ </TD> <TD align="right"> 4.54 </TD> </TR>
-  <TR> <TD> $\beta_{23}$ </TD> <TD align="right"> 6.86 </TD> </TR>
-  <TR> <TD> $\beta_{24}$ </TD> <TD align="right"> 4.50 </TD> </TR>
-  <TR> <TD> $\beta_{28}$ </TD> <TD align="right"> -0.18 </TD> </TR>
+  <TR> <TD> $\beta_{6}$ </TD> <TD align="right"> 3.03 </TD> </TR>
+  <TR> <TD> $\beta_{7}$ </TD> <TD align="right"> -0.12 </TD> </TR>
+  <TR> <TD> $\beta_{10}$ </TD> <TD align="right"> -1.13 </TD> </TR>
+  <TR> <TD> $\beta_{11}$ </TD> <TD align="right"> -1.80 </TD> </TR>
+  <TR> <TD> $\beta_{14}$ </TD> <TD align="right"> -0.47 </TD> </TR>
+  <TR> <TD> $\beta_{17}$ </TD> <TD align="right"> -2.68 </TD> </TR>
+  <TR> <TD> $\beta_{19}$ </TD> <TD align="right"> -3.78 </TD> </TR>
+  <TR> <TD> $\beta_{25}$ </TD> <TD align="right"> 3.06 </TD> </TR>
+  <TR> <TD> $\beta_{29}$ </TD> <TD align="right"> 0.24 </TD> </TR>
+  <TR> <TD> $\beta_{30}$ </TD> <TD align="right"> -5.97 </TD> </TR>
    </TABLE>
 
 
@@ -320,8 +320,8 @@ e depois dividi pelo máximo para ficar entre 0 e 1. O problema é que não fico
 Códigos disponíveis no Github <i class="fa fa-github"></i>
 ----------------------------------------------
 
-- [R markdown](https://github.com/Athospd/R-adas/blob/gh-pages/Rmd/simulacaoComparacaoSelecaoDeModelo.Rmd)
-- [markdown](https://github.com/Athospd/R-adas/blob/gh-pages/md/simulacaoComparacaoSelecaoDeModelo.md)
-- [R](https://github.com/Athospd/R-adas//blob/gh-pages/R/simulacaoComparacaoSelecaoDeModelo.R)
-- [Todas as postagens](https://github.com/Athospd/R-adas/)
+- [R markdown](https://github.com/R-adas/R-adas-source/blob/gh-pages/Rmd/simulacaoComparacaoSelecaoDeModelo.Rmd)
+- [markdown](https://github.com/R-adas/R-adas-source/blob/gh-pages/md/simulacaoComparacaoSelecaoDeModelo.md)
+- [R](https://github.com/R-adas/R-adas-source//blob/gh-pages/R/simulacaoComparacaoSelecaoDeModelo.R)
+- [Todas as postagens](https://github.com/R-adas/R-adas-source/)
  
